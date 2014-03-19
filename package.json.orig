@@ -1,0 +1,17 @@
+{
+    "name": "vikram-portfolio"
+<<<<<<< HEAD
+  , "author": "Vikram Somu"
+=======
+>>>>>>> 872832143f7685266e7a8e7837921c6a43d769dc
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "latest"
+    , "jade": ">= 0.0.1"
+<<<<<<< HEAD
+    , "forever":"latest"
+=======
+>>>>>>> 872832143f7685266e7a8e7837921c6a43d769dc
+  }
+}
