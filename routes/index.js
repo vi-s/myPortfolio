@@ -4,5 +4,7 @@ is required as a module, and no package.json exists in the root of the folder di
 */
 
 exports.index = function(req, res){
-  res.render('index', { name: "Vikram Somu" });
+  res.render('index', { title: "Vikram - Portfolio", 
+  						name: "Vikram Somu", 
+  						layout:"layout"});
 }
