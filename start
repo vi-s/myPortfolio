@@ -1,0 +1,10 @@
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 8080
+
+./node_modules/forever/bin/forever \
+start \
+-al forever.log \
+-ao out.log \
+-ae err.log \
+app.js
+
+
